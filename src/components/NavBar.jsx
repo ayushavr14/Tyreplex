@@ -54,7 +54,7 @@ const Navbar = () => {
             <div key={index} className="group relative">
               <a
                 href="#"
-                className="text-gray-800 font-medium hover:text-red-500"
+                className="text-gray-800 font-medium hover:text-red-500 text-lg"
               >
                 {navItem.item}
               </a>
@@ -80,7 +80,7 @@ const Navbar = () => {
 
         {/* Login Button (Desktop) */}
         <div className="hidden lg:flex space-x-4">
-          <a href="#" className="text-gray-800 hover:text-red-500">
+          <a href="#" className="text-gray-800 hover:text-red-500 font-medium">
             Login
           </a>
         </div>

@@ -4,6 +4,9 @@ import MainCard from "./MainCard";
 import Services from "./Services";
 import Deals from "./Deals";
 import Products from "./Products";
+import PaymentMode from "./components/PaymentMode";
+import Question from "./Question";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +16,9 @@ const App = () => {
       <Deals />
       <Services />
       <Products />
+      <PaymentMode />
+      <Question />
+      <Footer />
     </div>
   );
 };
